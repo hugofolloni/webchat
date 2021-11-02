@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+html{
+ overflow-y: hidden;
+ overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  width: 100vw;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sendmessage-div {
+  position: fixed;
+  background-color: #1c1c1c;
+  width: 100%;
+  height: 12%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  top: 88%;
+  left: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.sendmessage-div input, .message-input-field {
+  border-radius: 20px;
+  height: 68%;
+  padding-left: 10px;
+  background-color: #504b4b;
+  border: none;
+  color: white; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.username-input-field {
+  width: 20%;
+}
+
+.message-input-field {
+  width: 50%;
+  resize: none;
+  overflow-y: hidden;
+}
+
+.sendmessage-div button {
+  background-color: #eaeaea;
+  width: 10%;
+  height: 60%;
+  border-radius: 20px;
+  color: #1c1c1c;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
 }

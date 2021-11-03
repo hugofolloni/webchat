@@ -11,3 +11,4 @@ On the page, the user can see previous messages on that room (the only one haha)
 - JSON-server (to create the database)
 
 ## 🎨 UI
+![image](https://user-images.githubusercontent.com/82226141/139986747-bd3b3ea6-b0bc-46b8-9490-0c2120e0ac30.png)

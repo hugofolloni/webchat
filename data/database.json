@@ -1,9 +1,39 @@
 {
   "messages": [
     {
-      "username": "asd",
-      "message": "asd",
+      "username": "Sasha",
+      "message": "hi guys!\n",
       "id": 1
+    },
+    {
+      "username": "Eren",
+      "message": "What is this?",
+      "id": 2
+    },
+    {
+      "username": "Mikasa",
+      "message": "Eren?",
+      "id": 3
+    },
+    {
+      "username": "Reiner",
+      "message": "Good morning!",
+      "id": 4
+    },
+    {
+      "username": "Armin",
+      "message": "This is a webchat, right?",
+      "id": 5
+    },
+    {
+      "username": "Eren",
+      "message": "\nYeah, I think it is! With an easy user-rename and a little anonymous, right?",
+      "id": 6
+    },
+    {
+      "username": "Levi",
+      "message": "Yes.",
+      "id": 7
     }
   ]
 }
